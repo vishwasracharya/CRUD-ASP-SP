@@ -101,6 +101,8 @@
                     <asp:Button class="btn btn-primary" ID="Button1" runat="server" Text="Insert" OnClick="Button1_Click" />
                 &nbsp;
                     <asp:Button class="btn btn-warning" ID="Button2" runat="server" Text="Update" OnClick="Button2_Click" />
+                &nbsp;
+                    <asp:Button class="btn btn-danger" ID="Button3" runat="server" Text="Delete" OnClick="Button3_Click" OnClientClick="return confirm (&quot;Do you want to delete this ID?&quot;)"/>
                 </td>
                 <td class="auto-style4">&nbsp;</td>
             </tr>

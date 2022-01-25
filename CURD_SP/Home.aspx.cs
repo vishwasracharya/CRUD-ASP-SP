@@ -56,5 +56,16 @@ namespace CURD_SP
             ScriptManager.RegisterStartupScript(this, this.GetType(), "script", "alert('Update Successfull');", true);
             GetProductList();
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            int productid = int.Parse(TextBox1.Text);
+            con.Open();
+            SqlCommand co = new SqlCommand("EXEC ProductDelete_sp'"+productid+"'", con);
+            co.ExecuteNonQuery();
+            con.Close();
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "script", "alert('Update Successfull');", true);
+            GetProductList();
+        }
     }
 }
