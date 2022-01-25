@@ -1,6 +1,6 @@
 # CRUD-ASP-SP
-<a href="https://github.com/vishwasracharya/E-Library/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/vishwasracharya/E-Library?color=blue"></a>
-<a href="https://github.com/vishwasracharya/E-Library/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/vishwasracharya/E-Library?color=orange"></a>
+<a href="https://github.com/vishwasracharya/CRUD-ASP-SP/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/vishwasracharya/CRUD-ASP-SP?color=blue"></a>
+<a href="https://github.com/vishwasracharya/CRUD-ASP-SP/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/vishwasracharya/CRUD-ASP-SP?color=orange"></a>
 
 This repo consists of CRUD operation with the use of stored procedure.
 A Project which is created while learning of ASP.NET & Stored Procedure and how to use stored procedures. This is the video link that I learned it from.
